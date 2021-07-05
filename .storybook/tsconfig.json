@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.app.json",
+  "compilerOptions": {
+    "types": [
+      "jest",
+      "node"
+    ]
+  },
+  "exclude": [
+    "../src/test.ts",
+    "../projects/**/*.spec.ts"
+  ],
+  "include": [
+    "../src/**/*",
+    "../projects/**/*",
+    "../src/**/*.spec.ts",
+  ],
+  "files": [
+    "./typings.d.ts"
+  ]
+}
