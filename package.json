@@ -10,7 +10,7 @@
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "npm run docs:json && start-storybook -p 6006",
     "build-storybook": "npm run docs:json && build-storybook",
-    "chromatic": "npx chromatic --project-token=8f642c8e3f25"
+    "chromatic": "chromatic --project-token CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes"
   },
   "private": true,
   "dependencies": {
